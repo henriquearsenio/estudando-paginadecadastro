@@ -7,7 +7,7 @@ formulario.addEventListener("submit", function (evento) {
     const email = document.getElementById("email").value;
     const senha = document.getElementById("senha").value;
 
-    console.log("Nome: ${nome}");
-    console.log("Email: ${email}");
-    console.log("Senha: ${senha}");
+    console.log(`Nome: ${nome}`);
+    console.log(`Email: ${email}`);
+    console.log(`Senha: ${senha}`);
 })
